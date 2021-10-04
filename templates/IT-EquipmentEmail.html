@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">    
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    h4{
+      font-size: 32px;
+      font-weight: bold;
+      text-align: left;
+    }
+
+    h6{
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    h5{
+      font-size: 26px;
+      font-weight: normal;
+      text-align: left;
+    }
+
+    p{
+      font-size: 16px;
+      font-weight: normal;
+      text-align: left;
+    }
+    .signp{
+      font-size: 10px;
+      font-weight: normal;
+      text-align: left;    
+    }
+    .crounded{
+      border-radius: 10px;
+      padding: 10px 10px 10px 10px;
+    }
+    .bgImgCenter {
+        padding: 0px 0px 0px 0px;
+        background-color: #000000;
+        /*background-image: url('https://onsitezitbck.s3.eu-central-1.amazonaws.com/images/MainZattooBanner-Email.png');*/
+        /*background-image: url('./images/MainZattooBanner3.png');*/
+        background-image: url('https://drive.google.com/uc?export=view&id=1op8ykqvVV3b9rQWl90QyLzM0qgrKrfjl');
+        width: 100%;
+        height: 217px;
+        background-repeat: no-repeat;
+        background-position: center;        
+    }
+    .TextCenter{        
+        padding-top: 90px;
+        padding-left: 36%;        
+    }
+    .TextStr{
+        color: #dbdbdb;
+        font-size: 34px;
+        font-weight: bold;
+    }
+    h4{
+        text-transform: capitalize;
+    }
+  </style>
+  </head>
+  <body>
+    <div class="jumbotron bgImgCenter">
+        <div class="TextCenter"><h2><span class="TextStr">Zattoo - NOC Team</span></h2></div>
+    </div><br /><br />    
+    <div class="col-md-12"><br /></div>    
+    <div class="row justify-content-left align-items-left">
+      <div class="col-md-12">
+        <div class="card crounded">
+          <div class="card-body">            
+            {{msgEmail}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <p>
+    Kind regards,<br>    
+    </p>
+    <p class="signp">      
+      <strong>{{senderName}}</strong><br>
+      <strong>ZATTOO TV Operations Center</strong><br>
+      <a href="https://zattoo.com">zattoo.com</a> - #watchyouwant<br><br>
+      Please send all your requests to our ticketing system:<br>
+      <a href="https://noc.zattoo.com/">https://noc.zattoo.com/</a><br><br>
+      Zattoo AG<br>
+      Baslerstrasse 60<br>
+      8048 Zurich, Switzerland
+    </p>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
