@@ -21,7 +21,7 @@ def CreateService():
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
-            flow = InstalledAppFlow.from_client_secrets_file(baseDir+'/creds-sdk.json', SCOPES)
+            flow = InstalledAppFlow.from_client_secrets_file(baseDir+'Creds JSON File', SCOPES)
             creds = flow.run_local_server(port=0)
 
         with open(baseDir+'/token.pickle', 'wb') as token:
